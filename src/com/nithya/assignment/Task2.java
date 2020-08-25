@@ -43,7 +43,12 @@ public class Task2 {
 						Integer value = count.get(month);
 						count.put(month, value+1);
 						
+					}else {
+					
+					count.put(month, 1);
+					
 					}
+
 					
 				}else {
 					
