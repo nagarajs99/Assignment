@@ -36,7 +36,6 @@ public class Task2 {
 				
 				Integer month = createDate.getMonth();
 				
-				if(count.size() > 0) {
 					
 					if( count.containsKey(month)) {
 						
@@ -50,11 +49,6 @@ public class Task2 {
 					}
 
 					
-				}else {
-					
-					count.put(month, 1);
-					
-				}
 				
 				
 			} catch (IOException e) {
